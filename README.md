@@ -1,3 +1,5 @@
+This ROS package allows a Pioneer P3DX robot, equipped with an IP camera, to recognize a person using pose estimation, approach them and follow their movement while keeping a constant distance from them.
+
 ## Setup
 
 You must have ROS Kinetic installed, which is only available on Ubuntu 16.04. If you haven’t done so, create and build a catkin workspace:
