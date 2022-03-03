@@ -1,6 +1,4 @@
-This ROS package allows a Pioneer P3DX robot, with an IP camera attached to it, to detect the arrival of a person, approach to them, and follow their movement continuously.
-
-# Setup
+## Setup
 
 You must have ROS Kinetic installed, which is only available on Ubuntu 16.04. If you haven’t done so, create and build a catkin workspace:
 
@@ -10,7 +8,7 @@ cd ~/catkin_ws/
 catkin_make
 ```
 
-# Build
+## Build
 
 Clone this project into the `~/catkin_ws/src` folder. Then, build the package by running
 
@@ -21,7 +19,7 @@ catkin_make
 
 Make sure you run the commands `source /opt/ros/kinetic/setup.bash` and `source ~/catkin_ws/devel/setup.bash` on every new shell to have access to the ROS environment and to this package (you can add this commands to the `.bashrc` file for convinience).
 
-# Virtual environment
+## Virtual environment
 
 You need to create a Python 2 virtual environment. Create it with
 
@@ -42,7 +40,7 @@ You can check the python version with `python -V`. Finally, install the appropri
 pip install -r requirements.txt
 ```
 
-# Execution
+## Execution
 
 Start the ROS core service with
 
